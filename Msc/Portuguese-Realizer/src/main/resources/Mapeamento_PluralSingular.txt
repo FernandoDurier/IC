@@ -1,0 +1,14 @@
+sin.	pl.
+a	as
+ão	ães,ãos,ões
+al	ais
+e	es
+el	éis
+im	ins
+il	is
+iz	izes
+m	ns
+o	os
+oi	ois
+ol	óis
+ul	uis

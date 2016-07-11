@@ -1,0 +1,11 @@
+﻿Verbo	3PS_Presente	3PP_Presente	3PS_Passado	3PP_Passado	Participio	Gerundio	Imperativo
+debitar	debita	debitam	debitou	debitaram	debitado	debitando	debite
+entregar	entrega	entregam	entregou	entregaram	entregado	entregando	entregue
+fazer	faz	fazem	fez	fizeram	feito	fazendo	faça
+pegar	pega	pegam	pegou	pegaram	pego	pegando	pegue
+preparar	prepara	preparam	preparou	prepararam	preparado	preparando	prepare
+receber	recebe	recebem	recebeu	receberam	recebido	rebendo	reciba
+retornar	retorna	retornam	retornou	retornaram	retornado	retornando	retorne
+ser	é	são	foi	foram	sido	sendo	seja
+submeter	submete	submetem	submeteu	submeteram	submetido	submetendo	submeta
+sugerir	sugere	sugerem	sugeriu	sugeriram	sugerido	sugerindo	sugira

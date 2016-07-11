@@ -1,0 +1,11 @@
+﻿mAviao,
+mBalao,mBarao,mBarman,mBode,mBoi,
+mCao,mCapitao,mCarrao,fComadre,mChafariz,mCaminho,mCaminhos
+mFregues,mFrei,
+mGarçom,mGarcom,
+mJuiz,
+fMae,
+fParede,mProfessor,
+mTorax,
+mTubarao,
+mZangao
