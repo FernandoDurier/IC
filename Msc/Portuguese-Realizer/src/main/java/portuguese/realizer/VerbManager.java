@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.TreeMap;
 
 public class VerbManager {
-	
+	//teste
 	private final String FILE_NAME = "Port_Verbs.txt";
 	private final String ALL_VERBS_FILE = "corpus-verbos.txt";
 	
