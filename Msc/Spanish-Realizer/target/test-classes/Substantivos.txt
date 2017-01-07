@@ -1,0 +1,10 @@
+﻿mAvion,
+mBaron,mBuey,
+mCapitan,fCuna,mCamino,mCaminos,mCliente,mCamarero,mCamarero,fCabra,
+fFuente,mFrei,
+mGlobo,
+mJuez,
+fMadre,mMaestro,
+fPared,mPecho,mPerro,
+mTiburon,
+mZangano

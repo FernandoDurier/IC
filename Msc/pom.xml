@@ -11,6 +11,7 @@
     <module>General-Language-Common</module>
     <module>Portuguese-Realizer</module>
     <module>English-Realizer</module>
+    <module>Spanish-Realizer</module>
     <module>BPM2NLG</module>
   </modules>
   

@@ -1,0 +1,11 @@
+﻿Verbo	3PS_Presente	3PP_Presente	3PS_Passado	3PP_Passado	Participio	Gerundio	Imperativo
+amar	ama	aman	amo	amaron	amado	amando	ame
+entregar	entrega	entregan	entrego	entregaron	entregado	entregando	entregue
+hacer	hace	hacen	hizo	hicieron	hecho	haciendo	haga
+obtener	obtiene	obtienen	obtuvo	obtuvieron	obtenido	obteniendo	obtenga
+preparar	prepara	preparan	preparo	prepararon	preparado	preparando	prepara
+recibir	recibe	reciben	recibio	recibieron	recibido	recibiendo	reciba
+retornar	retorna	retornan	retorno	retornaron	retornado	retornando	retorne
+ser	es	son	fue	fueron	sido	siendo	sea
+someter	somete	someten	sometio	sometieron	sometido	sometiendo	somete
+sugerir	sugiere	sugieren	sugirio	sugirieron	sugirido	sugiriendo	sugiera

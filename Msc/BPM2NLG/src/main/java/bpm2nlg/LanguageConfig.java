@@ -9,6 +9,11 @@ import english.realizer.EnglishSurfaceRealizer;
 import english.realizer.label.analysis.EnglishLabelDeriver;
 import english.realizer.label.analysis.EnglishLabelHelper;
 import english.realizer.label.analysis.EnglishLabelProperties;
+import spanish.realizer.label.analysis.SpanishLabelProperties;
+import spanish.realizer.label.analysis.SpanishLabelHelper;
+import spanish.realizer.label.analysis.SpanishLabelDeriver;
+import spanish.realizer.SpanishLanguageProcessor;
+import spanish.realizer.SpanishSurfaceRealizer;
 import general.language.common.SupportedLanguages;
 import general.language.common.label.analysis.ILabelDeriver;
 import general.language.common.label.analysis.ILabelHelper;
@@ -64,7 +69,11 @@ public class LanguageConfig {
 			break;
 		case ENGLISH:
 			labelProperties = new EnglishLabelProperties();
-		}
+                        break;
+                case SPANISH:
+                        labelProperties = new SpanishLabelProperties();
+                        break;
+                }
 
 		return labelProperties;
 	}
@@ -99,6 +108,14 @@ public class LanguageConfig {
 					surfaceRealizer = new PortugueseSurfaceRealizer(
 							labelHelper, languageProcessor);
 					break;
+                                        
+                                case SPANISH:
+					labelHelper = new SpanishLabelHelper();
+					labelDeriver = new SpanishLabelDeriver(labelHelper);
+					languageProcessor = new SpanishLanguageProcessor();
+					surfaceRealizer = new SpanishSurfaceRealizer(
+							labelHelper, languageProcessor);
+					break; 
 				}
 
 				CURRENT_LANGUAGE = currentLanguage;

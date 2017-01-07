@@ -1,1 +1,5 @@
 *.log
+/Msc/Machine-Artifact/target/
+/Msc/English-Realizer/target/
+/Msc/Portuguese-Realizer/target/
+/Msc/BPM2NLG/target/

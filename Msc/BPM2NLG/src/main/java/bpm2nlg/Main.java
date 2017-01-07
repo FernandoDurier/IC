@@ -33,6 +33,7 @@ public class Main {
 	private static IProcessModelFacade processModelFacade;
 	private static final String ENGLISH_PM = "Hotel_Service_English.json";
 	private static final String PORTUGUESE_PM = "Hotel_Service_Portuguese.json";
+        private static final String SPANISH_PM = "Hotel_Service_Spanish.json";
 	
 	private static void init(){
 		processModelFacade = new ProcessMachineArtifactFacade();
@@ -44,9 +45,13 @@ public class Main {
 	public static void main(String[] args) throws Exception{
 		init();
 		
-		URL is = ClassLoader.getSystemResource(ENGLISH_PM);
-		ProcessModel model = processModelFacade.readProcessModelFromJson(is.getPath());
-		System.out.print(SupportedLanguages.valueOf(model.getLanguage().toUpperCase()));
+		//URL is = ClassLoader.getSystemResource(PORTUGUESE_PM);
+		//ProcessModel model = processModelFacade.readProcessModelFromJson("Hotel_Service_Portuguese.json");
+		
+                URL is = ClassLoader.getSystemResource(SPANISH_PM);
+		ProcessModel model = processModelFacade.readProcessModelFromJson("Hotel_Service_Spanish.json");
+		                
+                System.out.print(SupportedLanguages.valueOf(model.getLanguage().toUpperCase()));
 		
 		try  
 		{
@@ -58,7 +63,7 @@ public class Main {
 		{
 			//If some problem occurs, sets the language to English as default.  
 			try{
-				LanguageConfig.getInstance().setCurrentLanguage(SupportedLanguages.ENGLISH);
+				LanguageConfig.getInstance().setCurrentLanguage(SupportedLanguages.PORTUGUESE);
 			} catch(Exception e){
 				System.out.println(e.getMessage());
 			}

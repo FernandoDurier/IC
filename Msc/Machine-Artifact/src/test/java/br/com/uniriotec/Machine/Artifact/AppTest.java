@@ -23,8 +23,12 @@ public class AppTest {
 	
 	@Test
 	public void testProcessModelParser() throws CreateProcessModelException{
-		URL is = ClassLoader.getSystemResource("Hotel_Service_English.json");
-		ProcessModel pm = processModelFacade.readProcessModelFromJson(is.getPath());
+//		URL is = ClassLoader.getSystemResource("Hotel_Service_English.json");
+//		ProcessModel pm = processModelFacade.readProcessModelFromJson(is.getPath());
+              
+                String is = "C:\\Users\\Cliente\\Desktop\\bolsa ic 2\\unirio-workspace\\Msc\\Machine-Artifact\\src\\test\\resources\\Hotel_Service_English.json";
+                               
+		ProcessModel pm = processModelFacade.readProcessModelFromJson(is);
 		
 		assertNotNull(pm);
 	}

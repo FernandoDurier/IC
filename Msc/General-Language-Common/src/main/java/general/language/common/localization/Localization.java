@@ -58,6 +58,7 @@ public class Localization
 	private final String DICTIONARY_PORTUGUESE = "Dictionary_Portuguese.txt";
 	private final String DICTIONARY_ENGLISH = "Dictionary_English.txt";
 	private final String DICTIONARY_GERMAN = "Dictionary_German.txt";
+        private final String DICTIONARY_SPANISH = "Dictionary_Spanish.txt";
 	private HashMap<SupportedLanguages, HashMap<Messages, String>> cachedDictionaries;
 	private HashMap<Messages, String> currentDictionary;
 	
@@ -142,8 +143,12 @@ public class Localization
 					fileName = DICTIONARY_PORTUGUESE;
 					break;
 					
-				default:
+                                 case ENGLISH:
 					fileName = DICTIONARY_ENGLISH;
+					break;
+                                 case SPANISH:
+					fileName = DICTIONARY_SPANISH;
+                                        break;
 			}
 			
 			parseDictonary(fileName, language);

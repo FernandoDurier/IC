@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>NlgFramework</artifactId>
+    <groupId>br.com.uniriotec</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>Spanish-Realizer</artifactId>
+  <name>Spanish-Realizer</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+	<dependency>
+		<groupId>br.com.uniriotec</groupId>
+		<artifactId>General-Language-Common</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.apache.jena</groupId>
+    	<artifactId>apache-jena-libs</artifactId>
+    	<type>pom</type>
+    	<version>2.13.0</version>
+  	</dependency>
+  </dependencies>
+</project>
